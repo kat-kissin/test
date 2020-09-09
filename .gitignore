@@ -1,0 +1,83 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+## macOS
+*.DS_Store
+._*
+
+## Linux
+.Trash-*
+
+###
+### Java
+###
+
+*.class
+*.jar
+*.war
+*.zip
+
+
+## Eclipse
+.metadata
+/bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+
+## Ivy cache
+.slcache
+
+## Other
+*.iml
+
+## Web application files
+/web-app/WEB-INF/classes
+
+## Plugin Installation
+/plugins
+/web-app/plugins
+/plugin.xml
+
+## Default HSQL database files
+*Db.properties
+*Db.script
+
+## Build files
+/target
